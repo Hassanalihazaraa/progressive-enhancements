@@ -1,0 +1,118 @@
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+/* header */
+
+header > p {
+    color: #f2f2f2;
+}
+
+
+header > p {
+    font-weight: bold;
+}
+
+img {
+    width: 50%;
+
+}
+
+/* Headings */
+
+.heading {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: #f2f2f2;
+}
+
+/* all paragraph text */
+
+.text {
+    color: #edf4f8;
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 20px;
+    word-spacing: 10px;
+
+}
+
+.preamble > ul > li {
+    list-style: none;
+}
+
+/* Dailogue section */
+
+.dailog {
+    display: block;
+    width: 50%;
+    margin: 80px auto 80px;
+    font-weight: bold;
+    color: #35424a;
+    font-family: 'Open Sans', sans-serif;;
+    word-spacing: 5px;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 30px;
+}
+
+
+th, tr {
+    background-color: #f2f2f2;
+}
+
+
+/* qoutes */
+
+
+.neighbours {
+    display: block;
+    width: 50%;
+    margin: 80px auto 80px;
+    background-color: #f2f2f2;
+    color: #3f4545;
+    padding: 30px;
+    font-style: italic;
+    font-size: 160%;
+    border-left: 3px solid;
+    box-shadow: 10px 12px 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad {
+    text-transform: capitalize;
+    color: red;
+}
+
+
+/* links */
+
+.blog-link {
+    background-color: #C8F5EE;
+    color: #494242;
+    padding: 5px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #cccccc;
+}
+
+a:visited {
+    color: #4d90c1;
+}
